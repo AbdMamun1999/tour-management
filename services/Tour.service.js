@@ -24,6 +24,6 @@ exports.updateProductByIdService = async (productID, data) => {
 };
 
 exports.getProductByIdService = async (id) => {
-  const tour = await Tour.findById({ _id: id });
+  const tour = await Tour.findById(id);
   return tour;
 };
