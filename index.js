@@ -20,7 +20,7 @@ app.use(express.json());
 dbConnection();
 
 // user route
-app.use('/tour',tourRouter)
+app.use("/tours", tourRouter);
 
 app.get("/", (req, res) => {
   res.send("Tour management server is working");
@@ -31,13 +31,4 @@ app.use(errorHandler);
 
 app.listen(port, () => {
   console.log(`App is running on port ${port}`.red.bold);
-});
-
-
-// Unhandle Rejection handlers
-process.on("unhandledRejection", (error) => {
-  console.log(error.name, error.message);
-  app.close(() => {
-    process.exit(1);
-  });
 });
