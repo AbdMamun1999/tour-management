@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 const dbConnection = require("./utils/dbConnect");
 const colors = require("colors");
 const errorHandler = require("./middlewares/errorHandlers");
+const tourRouter = require("./routes/tour.route");
 
 // express app initializtion
 const app = express();
@@ -19,6 +20,7 @@ app.use(express.json());
 dbConnection();
 
 // user route
+app.use('/tour',tourRouter)
 
 app.get("/", (req, res) => {
   res.send("Tour management server is working");
