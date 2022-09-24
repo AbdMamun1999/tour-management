@@ -1,15 +1,14 @@
 const ObjectId = require("mongoose").Types.ObjectId;
-
 const {
-  saveProductService,
   getTourService,
-  updateProductByIdService,
-  getProductByIdService,
+  getTourByIdService,
+  updateTourByIdService,
+  saveTourService,
+  getThreeTour,
 } = require("../services/Tour.service");
 
 exports.getTour = async (req, res, next) => {
   try {
-    console.log(req.query);
     const queries = {};
 
     if (req.query.sort) {
@@ -43,7 +42,7 @@ exports.getTour = async (req, res, next) => {
 
 exports.saveTour = async (req, res, next) => {
   try {
-    const tour = await saveProductService(req.body);
+    const tour = await saveTourService(req.body);
     await tour.save();
     res.status(200).send({
       status: true,
@@ -68,7 +67,7 @@ exports.updateProductById = async (req, res, next) => {
         .json({ success: false, error: `Not a valid the id:${id}` });
     }
 
-    const result = await updateProductByIdService(id, req.body);
+    const result = await updateTourByIdService(id, req.body);
 
     if (!result.modifiedCount) {
       return res
@@ -107,13 +106,53 @@ exports.getProductById = async (req, res, next) => {
       });
     }
 
-    const product = await getProductByIdService(id);
+    const tour = await getTourByIdService(id);
+
+    // view count
+    tour.views = (await tour.views) + 1;
+    const result = await updateTourByIdService(id, tour);
 
     res.status(200).json({
       status: true,
       message: `Find the product by ${id}`,
-      data: product,
+      data: tour,
     });
+  } catch (error) {
+    res.status(400).send({
+      status: false,
+      message: "Data is not found",
+      error: error.message,
+    });
+  }
+};
+
+exports.getTopThreeViewedTour = async (req, res, next) => {
+  try {
+    const queries = {};
+    queries.sortBy = "-views";
+    queries.limit = 3;
+
+    const tour = await getThreeTour(queries);
+    res.json(tour);
+
+  } catch (error) {
+    res.status(400).send({
+      status: false,
+      message: "Data is not found",
+      error: error.message,
+    });
+  }
+};
+
+exports.getTopThreeCheapestTour = async (req, res, next) => {
+  try {
+    const queries = {};
+    queries.sortBy = "price";
+    queries.limit = 3;
+
+    const tour = await getThreeTour(queries);
+    res.json(tour);
+    
   } catch (error) {
     res.status(400).send({
       status: false,

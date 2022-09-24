@@ -27,12 +27,18 @@ const tourSchema = mongoose.Schema(
       require: true,
       trim: true,
     },
+    views: {
+      type: Number,
+      require: true,
+      trim:true,
+      min:0
+    },
   },
   {
     timestamps: true,
   }
 );
 
-const Tour = mongoose.model("Tour", tourSchema);
+const Tour = new mongoose.model("Tour", tourSchema);
 
 module.exports = Tour;

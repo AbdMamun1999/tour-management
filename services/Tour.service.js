@@ -9,21 +9,25 @@ exports.getTourService = async (queries) => {
   return tours;
 };
 
-exports.saveProductService = async (data) => {
+exports.saveTourService = async (data) => {
   const tour = await Tour.create(data);
-  console.log(tour);
   return tour;
 };
-exports.updateProductByIdService = async (productID, data) => {
+exports.updateTourByIdService = async (tourId, data) => {
   const result = await Tour.updateOne(
-    { _id: productID },
+    { _id: tourId },
     { $set: data },
     { runValidators: true }
   );
   return result;
 };
 
-exports.getProductByIdService = async (id) => {
+exports.getTourByIdService = async (id) => {
   const tour = await Tour.findById(id);
   return tour;
+};
+
+exports.getThreeTour = async (queries) => {
+  const tours = await Tour.find({}).sort(queries.sortBy).limit(queries.limit);
+  return tours;
 };

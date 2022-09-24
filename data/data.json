@@ -3,90 +3,105 @@
     "name": "Sundarbans",
     "img": "sundarbans.jpg",
     "price": 1200,
-    "description": "Sundarbans has declared World Heritage Site by UNESCO which is the largest Mangrove Forest situated between two countries. It is the kingdom of Royal Bengal tiger and you will find various kinds of species of birds, animals & plants and I think you should visit the tranquilizing beauty of Sundarbans once in your life."
+    "description": "Sundarbans has declared World Heritage Site by UNESCO which is the largest Mangrove Forest situated between two countries. It is the kingdom of Royal Bengal tiger and you will find various kinds of species of birds, animals & plants and I think you should visit the tranquilizing beauty of Sundarbans once in your life.",
+    "views": 0
   },
   {
     "name": "Chittagong Hill Tracks",
     "img": "chittagong_Hill_Tracks.jpg",
     "price": 1500,
-    "description": "Hills are always enchanting to the tourist and as a tourist, you should obviously visit Chittagong Hill Tracks once which is the home of many tribal and you can discover yourself in the amazing green view. Chittagong Hill Tracks is the best place for making an adventurous tour and for this you have to take permission from the authority."
+    "description": "Hills are always enchanting to the tourist and as a tourist, you should obviously visit Chittagong Hill Tracks once which is the home of many tribal and you can discover yourself in the amazing green view. Chittagong Hill Tracks is the best place for making an adventurous tour and for this you have to take permission from the authority.",
+    "views": 0
   },
   {
     "name": "Srimagal",
     "img": "srimagal.jpg",
     "price": 1800,
-    "description": "The Capital of tea in Bangladesh is Srimagal which is situated in the north-eastern part of the country where you will find lush greenery fields all around. It is one of the best places in Bangladesh where you can really have the place & clam environment and there are two more visiting places too, Lawachhara National Park & Hamham Waterfalls."
+    "description": "The Capital of tea in Bangladesh is Srimagal which is situated in the north-eastern part of the country where you will find lush greenery fields all around. It is one of the best places in Bangladesh where you can really have the place & clam environment and there are two more visiting places too, Lawachhara National Park & Hamham Waterfalls.",
+    "views": 0
   },
   {
     "name": "Rangamati",
     "img": "rangamati.jpg",
     "price": 2000,
-    "description": "The District of Chittagong Hill Tracks area in Rangamati, a place full of natural amusement and here, here, you can find a man-made lake surrounded by Hill called Kaptai Lake where you can take a ride by boat all over the day, a Buddhist Monastery here named Rajban Bihara, a high-quality handicrafts market made by the tribal of Rangamati."
+    "description": "The District of Chittagong Hill Tracks area in Rangamati, a place full of natural amusement and here, here, you can find a man-made lake surrounded by Hill called Kaptai Lake where you can take a ride by boat all over the day, a Buddhist Monastery here named Rajban Bihara, a high-quality handicrafts market made by the tribal of Rangamati.",
+    "views": 0
   },
   {
     "name": "Paharpur",
     "img": "paharpur.jpg",
     "price": 1500,
-    "description": "Paharpur is the most impressive archeological site of Bangladesh which is known as Sompuri Maharabihara which has declared World Heritage Site by UNESCO and it is situated in the northwestern part of the country. In the initial period, it was the best Buddhist Monastery where people came for higher study from all over the world."
+    "description": "Paharpur is the most impressive archeological site of Bangladesh which is known as Sompuri Maharabihara which has declared World Heritage Site by UNESCO and it is situated in the northwestern part of the country. In the initial period, it was the best Buddhist Monastery where people came for higher study from all over the world.",
+    "views": 0
   },
   {
     "name": "Lalbag Fort",
     "img": "lalbag_fort.jpg",
     "price": 2200,
-    "description": "Lalbag Fort or Aurangabad is another most famous historical place in Bangladesh. It is situated beside the Buriganga River, in the southwestern part of Dhaka, Bangladesh. It was built by Mudmhammad Azam in 1678. Lalbag Fort represents the incomplete dream of the Mughal prince. The fort remained incomplete after the death of Prince Azam. "
+    "description": "Lalbag Fort or Aurangabad is another most famous historical place in Bangladesh. It is situated beside the Buriganga River, in the southwestern part of Dhaka, Bangladesh. It was built by Mudmhammad Azam in 1678. Lalbag Fort represents the incomplete dream of the Mughal prince. The fort remained incomplete after the death of Prince Azam. ",
+    "views": 0
   },
   {
     "name": "Star Mosque",
     "img": "Star Mosque.jpg",
     "price": 2300,
-    "description": "It is a famous tourist attraction in old Dhaka. The mosque is fully decorated with a mosaic. People also use this mosque for regular praying. Non-muslims are also invited to this mosque outside of prayer time. It was designed by Mughal style and the motifs of stars are the main cause to call this mosque “Star Mosque”."
+    "description": "It is a famous tourist attraction in old Dhaka. The mosque is fully decorated with a mosaic. People also use this mosque for regular praying. Non-muslims are also invited to this mosque outside of prayer time. It was designed by Mughal style and the motifs of stars are the main cause to call this mosque “Star Mosque”.",
+    "views": 0
   },
   {
     "name": "Bisanakandi",
     "img": "bisanakandi.jpg",
     "price": 2500,
-    "description": "Undoubtedly it is a great sign of natural beauty surrounded by hills and stones. For its natural beauty, it has become a popular tourist center in Bangladesh. It is situated at the Bangladesh-Sylhet border in Sylhet. In the rainy season it looks like the clouds hugging the mountains, so, winter is not a suitable season for visiting."
+    "description": "Undoubtedly it is a great sign of natural beauty surrounded by hills and stones. For its natural beauty, it has become a popular tourist center in Bangladesh. It is situated at the Bangladesh-Sylhet border in Sylhet. In the rainy season it looks like the clouds hugging the mountains, so, winter is not a suitable season for visiting.",
+    "views": 0
   },
   {
     "name": "Jaflong",
     "img": "jaflong.jpg",
     "price": 2600,
-    "description": "This place is situated at the Bangladesh-India border. It is one of the most attractive places in Bangladesh. It is also an adventurous place. It is a hilly area and you can enjoy the waterfall on the way of Jaflong to Sylhet. The hills of Jaflong are greenish with forest and there are many wild animals in the forest. Tea garden and zero points are the most beautiful spot of Jaflong."
+    "description": "This place is situated at the Bangladesh-India border. It is one of the most attractive places in Bangladesh. It is also an adventurous place. It is a hilly area and you can enjoy the waterfall on the way of Jaflong to Sylhet. The hills of Jaflong are greenish with forest and there are many wild animals in the forest. Tea garden and zero points are the most beautiful spot of Jaflong.",
+    "views": 0
   },
   {
     "name": "Ratatgul Swamp Forest",
     "img": "Ratatgul_swamp_forest.jpg",
     "price": 2700,
-    "description": "Ratargul Swamp Forest is the only swamp forest in Bangladesh where you can enjoy different kinds of creatures here like monkey, eagle, insects, fish, birds, etc and this evergreen forest is located beside a river named Goain. You have to request and take permission from the forest office to arrange a boat to explore the forest. Monsoon is the best time to explore the forest."
+    "description": "Ratargul Swamp Forest is the only swamp forest in Bangladesh where you can enjoy different kinds of creatures here like monkey, eagle, insects, fish, birds, etc and this evergreen forest is located beside a river named Goain. You have to request and take permission from the forest office to arrange a boat to explore the forest. Monsoon is the best time to explore the forest.",
+    "views": 0
   },
   {
     "name": "Malnicherra Tea Garden",
     "img": "Malnicherra_tea_garden",
     "price": 2800,
-    "description": "Malnicherra tea garden is one of the oldest and largest tea gardens in the subcontinent. If you want to enjoy the beauty of the tea garden in Sylhet, you must have to visit Malnicherra. Though the tea garden is now under private supervision, it is known as a place of choice for tourists to have a quality time. Better you seek permission from the authority to avoid complications before entering the tea garden."
+    "description": "Malnicherra tea garden is one of the oldest and largest tea gardens in the subcontinent. If you want to enjoy the beauty of the tea garden in Sylhet, you must have to visit Malnicherra. Though the tea garden is now under private supervision, it is known as a place of choice for tourists to have a quality time. Better you seek permission from the authority to avoid complications before entering the tea garden.",
+    "views": 0
   },
   {
     "name": "Inani Beach",
     "img": "inani_beach.jpg",
     "price": 2900,
-    "description": "Inani beach is known as a wonderful beach for its corals which become green in summer and rainy season. The blue water, sunrise, and sunset will help you to make you a memorable trip. You can bath here without any fear of a shark. You can see here crab, snail, sea fish, and many more creatures. The view of hills here will also touch your mind."
+    "description": "Inani beach is known as a wonderful beach for its corals which become green in summer and rainy season. The blue water, sunrise, and sunset will help you to make you a memorable trip. You can bath here without any fear of a shark. You can see here crab, snail, sea fish, and many more creatures. The view of hills here will also touch your mind.",
+    "views": 0
   },
   {
     "name": "Sitakundu",
     "img": "sitakundu.jpg",
     "price": 3000,
-    "description": "Sitakundu is one of the oldest sites in Bangladesh.  If you want to soothe your mind then definitely enjoy the natural and charming beauty of sitakundu. It is very famous for the Chandranath temple and Buddhist temples. Many waterfalls, mountains, and green rivers make the place heaven. If you are nature and adventure lover then you must visit this place.      "
+    "description": "Sitakundu is one of the oldest sites in Bangladesh.  If you want to soothe your mind then definitely enjoy the natural and charming beauty of sitakundu. It is very famous for the Chandranath temple and Buddhist temples. Many waterfalls, mountains, and green rivers make the place heaven. If you are nature and adventure lover then you must visit this place.",
+    "views": 0
   },
   {
     "name": "Nijhum Island",
     "img": "nijhum_island.jpg",
     "price": 1500,
-    "description": " It is a small island under Hatiya Upazila situated in the Noakhali district. This island is idle for tourists during winter. In winter, you can see here thousands of migratory birds. You can see here deer of special species."
+    "description": " It is a small island under Hatiya Upazila situated in the Noakhali district. This island is idle for tourists during winter. In winter, you can see here thousands of migratory birds. You can see here deer of special species.",
+    "views": 0
   },
   {
     "name": "Sajek Valley",
     "img": "Sajek_valley.jpg",
     "price": 3100,
-    "description": "If you want to see the land of the cloud in Bangladesh then you have to visit the queen of hills, Sajek Valley. Visiting this place will fulfill your dream of walking through the clouds. This is the best tourist spot in Bangladesh. The experience of going to Sajek by zigzag road through the cloud is really great. It is also called the roof of Rangamati because it is surrounded by hills. The valley is 1800 feet above from the sea level. If you are lucky enough, you can enjoy three forms of nature in a day.     "
+    "description": "If you want to see the land of the cloud in Bangladesh then you have to visit the queen of hills, Sajek Valley. Visiting this place will fulfill your dream of walking through the clouds. This is the best tourist spot in Bangladesh. The experience of going to Sajek by zigzag road through the cloud is really great. It is also called the roof of Rangamati because it is surrounded by hills. The valley is 1800 feet above from the sea level. If you are lucky enough, you can enjoy three forms of nature in a day.",
+    "views": 0
   }
 ]
